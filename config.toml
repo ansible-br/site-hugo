@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://ansible-br.github.io/"
+languageCode = "pt-br"
+title = "Ansible-Br docs"
 theme = "docdock"
 
 [outputs]
