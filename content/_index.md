@@ -17,8 +17,6 @@ O Ansible-br é um projeto independente e não possui nenhum vínculo oficial co
 
 ## Principais recursos
 
-* [Pesquisa rápidas]({{%relref "search/_index.md" %}})
-* [Guia rápido]({{%relref "Começando/guia-rapido.md"%}}) para iniciantes (Laboratório ágil)
 
 ## Contribua com esta documentação
 Sinta-se a vontade para atualizar este conteúdo. Basta clicar no link **Editar esta página** mostrado no topo direito de cada página e efetuar um Pull request

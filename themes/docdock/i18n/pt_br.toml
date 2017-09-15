@@ -1,0 +1,38 @@
+[create-header-md]
+other = "Crie um arquivo  _header.md para customizar isto"
+
+[Search-placeholder]
+other = "Pesquisar..."
+
+[Clear-History]
+other = "Limpar Histórico"
+
+[Page]
+other = "Página"
+
+[Next-Pages]
+other = "Páginas Seguintes"
+
+[Previous-Pages]
+other = "Páginas Anteriores"
+
+[pagination-on]
+other = "of"
+
+[Attachments-label]
+other = "Anexos"
+
+[title-404]
+other = "Erro"
+
+[message-404]
+other = "Opa. Looks like this page doesn't exist."
+
+[Go-to-homepage]
+other = "Ir para página inicial"
+
+[Edit-this-page]
+other = "Editar esta página"
+
+[Note]
+other = "Nota"
