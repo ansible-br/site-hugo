@@ -1,7 +1,41 @@
 baseURL = "https://ansible-br.github.io/"
 languageCode = "pt-br"
-title = "Ansible-Br docs"
+DefaultContentLanguage = "pt-br"
+title = "Documentação Ansible-br"
 theme = "docdock"
+
+[params]
+editURL = "https://github.com/ansible-br/site-hugo/edit/master/content/"
+noHomeIcon = false # default is false
+noSearch = false # default is false
+showVisitedLinks = true # default is false
+#themeStyle = "theme" # overide base css
+themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+pre = "<h3>Mais</h3>"
+name = "<i class='fa fa-telegram'></i> Grupo Telegram"
+identifier = "ansibletelegram"
+url = "https://t.me/ansiblebr/"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bookmark'></i> Documentação Oficial Ansible"
+identifier = "ansibledoc"
+url = "http://docs.ansible.com/ansible/latest/index.html"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-github'></i> Repositório Github"
+identifier = "rg"
+url = "https://github.com/ansible-br/site-hugo/"
+weight = 30
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bullhorn'></i> Créditos"
+url = "/creditos"
+weight = 40
