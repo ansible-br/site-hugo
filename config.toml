@@ -24,18 +24,24 @@ url = "https://t.me/ansiblebr/"
 weight = 10
 
 [[menu.shortcuts]]
+name = "<i class='fa fa-slack'></i> Slack Infra-as-Code"
+identifier = "infraascode"
+url = "https://infraascode.slack.com"
+weight = 20
+
+[[menu.shortcuts]]
 name = "<i class='fa fa-bookmark'></i> Documentação Oficial Ansible"
 identifier = "ansibledoc"
 url = "http://docs.ansible.com/ansible/latest/index.html"
-weight = 20
+weight = 30
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-github'></i> Repositório Github"
 identifier = "rg"
 url = "https://github.com/ansible-br/site-hugo/"
-weight = 30
+weight = 40
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-bullhorn'></i> Créditos"
 url = "/creditos"
-weight = 40
+weight = 50
