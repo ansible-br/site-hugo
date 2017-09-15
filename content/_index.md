@@ -17,7 +17,6 @@ O Ansible-br é um projeto independente e não possui nenhum vínculo oficial co
 
 ## Principais recursos
 
-
 ## Contribua com esta documentação
 Sinta-se a vontade para atualizar este conteúdo. Basta clicar no link **Editar esta página** mostrado no topo direito de cada página e efetuar um Pull request
 {{%alert%}}Sua modificação será mostrada automaticamente quando o merge for aprovado.{{%/alert%}}
