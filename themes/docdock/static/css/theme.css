@@ -754,21 +754,21 @@ div.notices.warning {
     background: #FAE2E2;
 }
 div.notices.warning p:first-child:after {
-    content: 'Warning';
+    content: 'Alerta';
 }
 div.notices.note {
     border-top: 30px solid #6AB0DE;
     background: #E7F2FA;
 }
 div.notices.note p:first-child:after {
-    content: 'Note';
+    content: 'Nota';
 }
 div.notices.tip {
     border-top: 30px solid rgba(92, 184, 92, 0.8);
     background: #E6F9E6;
 }
 div.notices.tip p:first-child:after {
-    content: 'Tip';
+    content: 'Dica';
 }
 code, kbd, pre, samp {
     font-family: "Consolas", menlo, monospace;

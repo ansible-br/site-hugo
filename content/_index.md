@@ -23,4 +23,4 @@ Sinta-se a vontade para atualizar este conteúdo. Basta clicar no link **Editar 
 
 
 ## Framework de Documentação
-Esta documentação atual foi estaticamente gerada com Hugo com um simples comando : `hugo -t docdock` -- código fonte em [disponível no GitHub {{%icon fa-github%}}](https://github.com/vjeantet/hugo-theme-docDock)
+Esta documentação atual foi estaticamente gerada com Hugo com um simples comando : `hugo -t docdock` -- código fonte [disponível no GitHub {{%icon fa-github%}}](https://github.com/vjeantet/hugo-theme-docDock)
