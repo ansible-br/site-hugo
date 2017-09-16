@@ -1,6 +1,6 @@
 +++
 title = "Provisionamento"
-description = ""
+description = "Pronto para diversas Clouds... Tudo na mesma linguagem de Playbooks"
 weight = 1
 alwaysopen = true
 +++

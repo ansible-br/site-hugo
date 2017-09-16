@@ -1,6 +1,6 @@
 +++
 title = "Curva de Aprendizado"
-description = ""
+description = "Simples, rápido e poderoso"
 weight = 1
 alwaysopen = true
 +++

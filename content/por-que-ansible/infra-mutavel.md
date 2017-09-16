@@ -1,6 +1,6 @@
 +++
 title = "Infra Mutável"
-description = ""
+description = "O Ansible se adapta bem para ambientes mistos"
 weight = 1
 alwaysopen = true
 +++

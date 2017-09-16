@@ -1,6 +1,6 @@
 +++
 title = "Orquestração"
-description = ""
+description = "Orquestração complexa? Solução simples"
 weight = 1
 alwaysopen = true
 +++

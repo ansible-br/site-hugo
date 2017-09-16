@@ -1,6 +1,6 @@
 +++
 title = "Por que Ansible?"
-description = ""
+description = "Melhor ferramenta para quem está começando"
 weight = 1
 pre ="<i class='fa fa-question-circle'></i>"
 +++
