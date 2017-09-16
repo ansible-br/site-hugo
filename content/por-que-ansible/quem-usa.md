@@ -9,7 +9,7 @@ weight = 10
 ## [Caixa Econômica Federal:](http://www.caixa.gov.br/)
 O provisionamento dos mais de 50.000 caixas eletrônicos é feito com Ansible
 
-{{% alert %}}A 4Linux projetou a automação para a Caixa. Hoje a empresa ministra cursos de DevOps com Ansible no conteúdo programático  [Mais informações](https://www.4linux.com.br/cursos/devops) {{%/alert%}}
+{{% alert %}}[A 4Linux projetou essa e outras automações para a Caixa.](https://www.4linux.com.br/por-que-fazer-seu-projeto-com-4linux) Hoje a empresa ministra cursos de DevOps com Ansible no conteúdo programático  [Mais informações](https://www.4linux.com.br/cursos/devops) {{%/alert%}}
 
 ## [PJe 2.0 TJDFT:](https://pje.tjdft.jus.br/)
 O principal sistema  (Processo Judicial Eletrônico)  do Tribunal de Justiça do Distrito Federal e Territórios - TJDFT foi provisionado, configurado e mantido com Ansible. Hoje o PJe 2.0 está disponível em quase 150 serventias, espalhadas por todo o Distrito Federal, e espera-se em chegar a 230 em 2018. [Mais informações](http://www.tjdft.jus.br/pje/aqui-tem-pje)
