@@ -1,6 +1,6 @@
 +++
 title = "Sem agentes"
-description = "Evite o problema de **gerenciar o gerencimento**, comum em vários sistemas de automação."
+description = "Evite o problema de gerenciar o gerencimento, comum em vários sistemas de automação."
 weight = 1
 +++
 
