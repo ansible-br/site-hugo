@@ -1,6 +1,6 @@
 +++
 title = "Materiais de Estudo"
-description = ""
+description = "Cursos, livros e materiais de referências"
 weight = 1
 alwaysopen = false
 +++
