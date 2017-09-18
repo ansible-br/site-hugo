@@ -283,7 +283,7 @@ O comando ping não 'pinga' (ICMP) efetivamente o *Host*. Este módulo realiza u
 						 "LSCOLORS": "Exfxcxdxbxegedabagacad",
 						 "LS_COLORS": "no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:",
 						 "PATH": "/Library/Frameworks/Python.framework/Versions/3.6/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/opt/puppetlabs/bin",
-						 "PWD": "/Users//InfrAgil/vagrant/teste",
+						 "PWD": "/Users//userlocal/user/teste",
 						 "SECURITYSESSIONID": "186a8",
 						 "SHELL": "/bin/bash",
 						 "SHLVL": "3",
@@ -300,7 +300,7 @@ O comando ping não 'pinga' (ICMP) efetivamente o *Host*. Este módulo realiza u
 						 "__CF_USER_TEXT_ENCODING": "0x1F6:0x0:0x0"
 				 },
 				 "ansible_fips": false,
-				 "ansible_fqdn": "macbook-pro-2.local",
+				 "ansible_fqdn": "localhost.local",
 				 "ansible_fw0": {
 						 "device": "fw0",
 						 "flags": [
@@ -343,7 +343,7 @@ O comando ping não 'pinga' (ICMP) efetivamente o *Host*. Este módulo realiza u
 						 "mtu": "1280",
 						 "type": "unknown"
 				 },
-				 "ansible_hostname": "MacBook-Pro-2",
+				 "ansible_hostname": "localhost",
 				 "ansible_interfaces": [
 						 "gif0",
 						 "utun0",
@@ -399,9 +399,9 @@ O comando ping não 'pinga' (ICMP) efetivamente o *Host*. Este módulo realiza u
 				 "ansible_machine": "x86_64",
 				 "ansible_memfree_mb": -201,
 				 "ansible_memtotal_mb": 16384,
-				 "ansible_model": "MacBookPro8,1",
-				 "ansible_nodename": "MacBook-Pro-2.local",
-				 "ansible_os_family": "Darwin",
+				 "ansible_model": "Feodoralinux",
+				 "ansible_nodename": "localhost.local",
+				 "ansible_os_family": "Fedora",
 				 "ansible_osrevision": "199506",
 				 "ansible_osversion": "16G29",
 				 "ansible_p2p0": {
@@ -458,7 +458,7 @@ O comando ping não 'pinga' (ICMP) efetivamente o *Host*. Este módulo realiza u
 						 "mtu": "1280",
 						 "type": "unknown"
 				 },
-				 "ansible_system": "Darwin",
+				 "ansible_system": "python",
 				 "ansible_user_dir": "/Users/userlinux",
 				 "ansible_user_gecos": "User Linux",
 				 "ansible_user_gid": 20,
@@ -663,8 +663,8 @@ O comando ping não 'pinga' (ICMP) efetivamente o *Host*. Este módulo realiza u
 				 "facter_networking": {
 						 "dhcp": "192.168.0.1",
 						 "domain": "local",
-						 "fqdn": "MacBook-Pro-2.local",
-						 "hostname": "MacBook-Pro-2",
+						 "fqdn": "localhost.local",
+						 "hostname": "",
 						 "interfaces": {
 								 "bridge0": {
 										 "mac": "d2:00:18:4a:a4:00",
@@ -804,7 +804,7 @@ O comando ping não 'pinga' (ICMP) efetivamente o *Host*. Este módulo realiza u
 				 },
 				 "facter_os": {
 						 "architecture": "x86_64",
-						 "family": "Darwin",
+						 "family": "RedHat",
 						 "hardware": "x86_64",
 						 "macosx": {
 								 "build": "16G29",
@@ -815,7 +815,7 @@ O comando ping não 'pinga' (ICMP) efetivamente o *Host*. Este módulo realiza u
 										 "minor": "6"
 								 }
 						 },
-						 "name": "Darwin",
+						 "name": "RedHat",
 						 "release": {
 								 "full": "16.7.0",
 								 "major": "16",
