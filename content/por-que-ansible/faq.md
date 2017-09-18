@@ -1,7 +1,7 @@
 +++
 title = "FAQ"
 description = "Perguntas e respostas frequentes"
-weight = 9
+weight = 20
 +++
 
 ### Ansible é considerado ou não como gerência de configuração?
