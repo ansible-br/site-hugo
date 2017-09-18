@@ -1,6 +1,6 @@
 +++
 title = "All-in-one: Tudo em um"
-description = "O Ansible possui atualmente mais de **1300 módulos**"
+description = "O Ansible possui atualmente mais de 1300 módulos"
 weight = 1
 alwaysopen = false
 +++
