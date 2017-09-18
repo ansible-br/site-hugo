@@ -2,7 +2,7 @@
 title = "Primeiros Passos"
 description = ""
 weight = 1
-alwaysopen = true
+alwaysopen = false
 pre ="<i class='fa fa-chevron-circle-right'></i>"
 +++
 
