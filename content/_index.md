@@ -16,6 +16,10 @@ O Ansible-br é um projeto independente e não possui nenhum vínculo oficial co
 
 
 ## Principais recursos
+* [Guia Rápido]({{%relref "primeiros-passos/guia-rapido/_index.md" %}})
+* [Materiais de Estudo]({{%relref "primeiros-passos/materiais-de-estudo/_index.md" %}})
+* [Quem usa Ansible?]({{%relref "por-que-ansible/quem-usa.md" %}})
+* [Perguntas e Respostas - FAQ]({{%relref "por-que-ansible/faq.md" %}})
 * [Pesquisa rápida]({{%relref "search/_index.md" %}})
 
 ## Contribua com esta documentação
