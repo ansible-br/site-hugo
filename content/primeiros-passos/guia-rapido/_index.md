@@ -1,6 +1,6 @@
 +++
 title = "Guia Rápido"
-description = "Guia rápido Hand-on para iniciar o uso do Ansible"
+description = "Guia rápido Hands-on para iniciar o uso do Ansible"
 weight = 1
 +++
 
