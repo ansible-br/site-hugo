@@ -8,7 +8,7 @@ weight = 1
 
 A nova versão 2.4 do Ansible foi disponibilizada (19/09/2017) na qual foi introduzido o conceito de include e import. Agora é possível dizer se você quer a importação estática ou inclusão dinâmica de tasks e roles.
 
-Primeiramente: o módulo include foi descontinuado (continuará disponível até a versão 2.8 do Ansible) e deu lugar para novos módulos: ***import_\**** *(import_tasks, import_role, import_plays)* e ***include_\**** *(include_tasks, include_role).*
+Primeiramente: o módulo *include* foi descontinuado (continuará disponível até a versão 2.8 do Ansible) e deu lugar para novos módulos: ***import_\**** *(import_tasks, import_role, import_plays)* e ***include_\**** *(include_tasks, include_role).*
 
 ### Mas qual a diferença entre import e include?
 A diferença básica é o momento em que o Ansible carrega as *tasks* e *roles* para serem executadas: pré-processadas (estática) ou processadas em tempo de execução (dinâmica).

@@ -229,7 +229,8 @@ Método `runas` está disponível para ambientes Windows. Agora o Ansible trabal
     - win_reboot:
       when: hotfix_install.reboot_required
 
-  ### Ansible Vault:
+
+### Ansible Vault:
 
   O [**Ansible Vault**](http://docs.ansible.com/ansible/latest/vault.html#vault-ids-and-multiple-vault-passwords) agora permite senhas diferentes para os arquivos criptografados:
 
