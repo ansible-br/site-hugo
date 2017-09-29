@@ -12,6 +12,8 @@ showVisitedLinks = true # default is false
 #themeStyle = "theme" # overide base css
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title"
+defaultKeywords = "Ansible,Brasil,Documentação,Infraestrutura como código,automação,ansible-br"
+
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
