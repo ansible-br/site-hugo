@@ -8,7 +8,7 @@ date = "2017-04-24T18:36:24+02:00"
 # Documentação Ansible-br
 Bem vindo à Documentação não oficial Ansible-br. Uma iniciativa do grupo do **[Telegram @ansible-br {{%icon fa-telegram%}}](https://t.me/ansiblebr)/[Slack Infra As Code/#ansible {{%icon fa-slack%}}](https://infraascode.slack.com)**
 
-Este projeto tem o objetivo de divulgar e fortalecer a comunidade do Ansible em Português (pt_br). Este site buscar servir como referência para iniciantes e para quem busca dominar esta ferramenta com mais profundidade.
+Este projeto tem o objetivo de divulgar e fortalecer a comunidade do Ansible em Português (pt_br). Este site busca servir como referência para iniciantes e para quem busca dominar esta ferramenta com mais profundidade.
 
 {{% notice note %}}
 O Ansible-br é um projeto independente e não possui nenhum vínculo oficial com a Red Hat ou o projeto Ansible
