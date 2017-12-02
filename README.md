@@ -21,3 +21,6 @@ Siga o procedimento de [Instalação no Hugo](https://gohugo.io/getting-started/
 
 ## Documentação do Template DocDock
 Esta documentação atual foi estaticamente gerada com Hugo com o template Docdock. Siga a [documentaço oficial](http://docdock.netlify.com/getting-start/) para utilizar o markdown apropriado.
+
+## Sugestão de Índice e Assuntos
+Veja quais assuntos a contribuir ou abordar neste projeto **[clicando aqui](sugestao-indice-assuntos.md)**. Fique a vontade para sugerir outros.
