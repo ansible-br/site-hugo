@@ -1,0 +1,172 @@
+## Proposta de Índice para o site
+
+Por que Ansible? 
+  - Simples, Poderoso e sem agente
+	Ansible, igualmente python, ajuda a focar nos meus conceitos/problemas ao invés de ficar brigando com a ferramenta/linguagem.\
+	Entre as ferramentas, é a menos que interfere entre você e o problema. É a mais efetiva para traduzir o pensamentos em ações,
+  - All-in-one: 🆗
+    - Gerência de Configuração? 🆗
+      - Idempotência
+      - Convergência?
+      - Estado desejado
+    - Provisionamento 🆗
+    - Orquestração 🆗
+  - FAQ 🆗
+- Ansible é considerado como gerência de configuração ou não?
+  - Quem usa / Cases? 🆗
+    - Empresa A
+    - Empresa B
+    - Empresa C
+
+Começando - Primeiros Passos:
+  - Guia Rápido (How to de até 7 passos para começar a usar o ansible) 🆗
+  - Cursos - 🆗
+	- Curso Ansible (Português Brasil) - Nível iniciante 🆗
+	- Ansible essentials - Simplicity in automation (Inglês com legendas) - Gratuito - Nível iniciante 🆗
+	- Ansible for the Absolute Beginner - Hands-On (Inglês) - Nível iniciante 🆗
+	- Mastering Ansible (Inglês com legendas) - Qualquer nível 🆗
+	- Ansible Advanced (Inglês) - Nível intermediário 🆗
+	- http://howtocode.com.br/cursos/ansible
+	- https://bra.nobleprog.com/capacitacao-ansible 
+  - Livros
+      - Ansible From Beginner to Pro - Michal Heap (Inglês)  🆗
+      - Ansible for DevOps - Server and configuration management for humans - Jeff Geerling (Inglês)  🆗
+      - Ansible Up & Running - AUTOMATING CONFIGURATION MANAGEMENT AND DEPLOYMENT THE EASY WAY - Lorin Hochstein (Inglês)  🆗
+      - Mastering Ansible - Master the ins and outs of advanced operations with Ansible - Jesse Keating - (Inglês)  🆗
+  - Webinars:
+      - https://www.ansible.com/webinars-training
+  - Sites:
+    - http://devdocs.io/ansible/
+    - https://doauto.blog/?s=ansible
+    - https://medium.com/@dgmorales/
+    - https://ciscoredes.com.br/
+    - https://churrops.io/category/devops/ansible/
+    - https://medium.com/@ricardson
+    - http://blog.4linux.com.br/tag/ansible/
+    - http://thiagocostapy.com/automatizando-a-configuracao-de-servidores-com-ansible/
+    - http://blog.justdigital.com.br/como-configurar-o-ambiente-de-desenvolvimento-usando-ansible-e-docker-para-provisionar-containers/
+	
+Aprenda mais: 🆗
+  - Changelogs:
+     - Versão 2.4 🆗
+     - Versão 2.3
+     - Versão 2.2
+  - Instalação
+    - Fedora/RHEL/CentOS
+    - Debian/Ubuntu
+    - Mac OS
+    - Windows (WSL)?
+  - Ferramentas
+    - IDE (Playable)
+    - Editores (vim, atom, visual studio, etc)
+  - Arquivo de Configuração
+    - Parâmetros essenciais
+  - Infraestrutura Local de Testes / Desenvolvimento
+    - Vagrant
+    - Docker
+    - Virtualbox / XEN / KVM / Fusion / Parallels
+  - Inventário
+      - Layout de Diretórios
+      - Padrões
+      - Limites --limit
+      - Inventário dinâmico
+      - add_host / group_by
+      - --list-hosts
+  - Comandos Ad-hoc
+    - Módulos de Comando
+      - shell
+      - command
+      - raw
+      - script
+      - telnet
+  - Sintaxe YAML
+  - Playbooks
+    - --check
+    - --start-at-task
+    - --tags
+    - --step
+  - Tasks
+    - tags
+    - step
+    - --list-tasks
+    - run_once
+    - delegate_to
+  - Handles
+    - nofify
+    - listen
+  - Roles
+    - Include (import 2.4)
+    - Ansible Galaxy
+  - Condicionais
+    - when
+    - when_changed
+    - when_failed
+    - ignore_erros
+  - Loops
+  - Variáveis
+    - inventário (inventory_
+    - grupos
+    - hosts
+    - facts (setup)
+    - variáveis de ambiente (ENV)
+    - register
+    - set_fact
+    - vars_files
+    - include_vars
+    - vars_prompt
+    - lookups
+    - Ansible Vault
+      - --ask-pass-vault
+    - debug var=hostvars
+  - Templates (Jinja2)
+  - Glossário de diretivas
+    - Play
+    - Role
+    - Block
+    - Tasks
+  - Boas práticas
+
+Tópicos especiais:
+  - Automação de ambientes Windows
+    - Usando módulos DSC nativamente
+  - Automação de Rede
+  - Manipulação de Erros / Debug
+  - Controle de Versão
+  - Ferramentas
+    - Ansible-cmdb
+  - Interface Web
+    - Ansible Tower
+    - AWX
+    - Rundeck
+      - Plugin Ansible
+    - Jenkins
+    - Project ARA
+  - Provisionamento Virtualização
+    - VMware vSphere
+    - Google Cloud
+    - Azure
+    - AWS
+    - Openstack
+  - Ansible Container (docker)
+
+Tópicos avançados:
+  - Desenvolvimento de módulos
+  - Desenvolvimento de Plugins
+    - Inventário dinâmico
+    - Filtros
+    - Lookup
+  - Teste de Infraestrutura
+    - Testinfra
+    - Molecule
+    - Kitchen CI
+    - Gitlab CI
+
+Comunidades Ansible-br:  🆗
+  - Lista do Telegram  🆗
+  - Grupo no Slack  🆗
+  - Eventos 
+  - Meetup
+  - Contribua  🆗
+  - Tradução?
+
+
