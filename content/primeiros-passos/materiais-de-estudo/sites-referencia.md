@@ -16,3 +16,6 @@ Segue uma relação de sites de referências disponíveis para o aprendizado do 
 | [ChurrOps on DevOps](https://churrops.io/category/devops/ansible/) 	| Rodrigo Floriano 	| Português 	|
 | [Tiago Costa](http://thiagocostapy.com/automatizando-a-configuracao-de-servidores-com-ansible/) 	| Tiago Costa 	| Português 	|
 | [Just Digital](http://blog.justdigital.com.br/como-configurar-o-ambiente-de-desenvolvimento-usando-ansible-e-docker-para-provisionar-containers/) 	| Renato Biancalana 	| Português 	|
+| [Giovanni dos Reis Nunes](https://giovannireisnunes.wordpress.com/tag/ansible/) 	| Giovanni dos Reis Nunes 	| Português 	|
+
+
