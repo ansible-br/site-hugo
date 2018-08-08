@@ -1,6 +1,6 @@
 +++
 title = "Passo 7 - Dicas e truques"
-description = "Outros comandos e parâmetros utéis no Ansible"
+description = "Outros comandos e parâmetros úteis no Ansible"
 weight = 8
 +++
 
@@ -8,7 +8,7 @@ weight = 8
 
 Para se conectar aos Hosts Linux, o meio mais prático é criar relação de confiança entre o Ansible Control e os Hosts alvo:
 
-**Gerar uma chave de conexão**
+#### Gerar uma chave de conexão
 
     $ ssh-key-gen
 
@@ -35,7 +35,7 @@ Para se conectar aos Hosts Linux, o meio mais prático é criar relação de con
     +----[SHA256]-----+
 {{%/expand%}}
 
-**Copiar o ID para o Hosts alvo:**
+#### Copiar o ID para o Hosts alvo
 
     $ ssh-copy-id <nome_host>
 
@@ -55,9 +55,9 @@ Para se conectar aos Hosts Linux, o meio mais prático é criar relação de con
     and check to make sure that only the key(s) you wanted were added.
 {{% /expand %}}
 
-### 2) Outras opções de conexão com os Hosts Alvo:
+### 2) Outras opções de conexão com os Hosts Alvo
 
-Solicitando a senha do usuário pelo prompt `--ask-pass`
+#### Solicitando a senha do usuário pelo prompt `--ask-pass`
 
     $ ansible-playbook -i /etc/ansible/hosts-test playbook.yml --ask-pass
     SSH password:
@@ -91,7 +91,7 @@ Solicitando a senha do usuário pelo prompt `--ask-pass`
                             especifica os argumentos extras para passar somente ao ssh  (e.g. -R)
 {{% /expand %}}
 
-Solicitando senha para escalar privilégios pelo prompt `--ask-become-pass`
+#### Solicitando senha para escalar privilégios pelo prompt `--ask-become-pass`
 
     ansible-playbook -i /etc/ansible/hosts-test playbook.yml --ask-become-pas
     SUDO password[defaults to SSH password]:
@@ -128,9 +128,9 @@ Solicitando senha para escalar privilégios pelo prompt `--ask-become-pass`
 
 {{%/expand %}}
 
-### 3) Listagem de Hosts e Tasks das Playbooks:
+### 3) Listagem de Hosts e Tasks das Playbooks
 
-**Listando todos os Hosts das Playbooks: `--list-hosts`**
+#### Listando todos os Hosts das Playbooks: `--list-hosts`
 
     $ sudo ansible-playbook -i /etc/ansible/hosts-test playbook.yml --list-hosts
 
@@ -149,8 +149,7 @@ Solicitando senha para escalar privilégios pelo prompt `--ask-become-pass`
 
 {{% /expand %}}
 
-
-**Listando todas as TASKS das Playbooks: `--list-tasks`**
+#### Listando todas as TASKS das Playbooks: `--list-tasks`
 
     $ sudo ansible-playbook -i /etc/ansible/hosts-test playbook.yml --list-tasks
 
@@ -169,13 +168,12 @@ Solicitando senha para escalar privilégios pelo prompt `--ask-become-pass`
 
 ### 4) Checagem de sintaxe
 
-**Checando a sintaxe YAML: `--syntax-check `**
+#### Checando a sintaxe YAML: `--syntax-check`
 
     $ sudo ansible-playbook -i /etc/ansible/hosts-test playbook.yml --syntax-check
 
 {{% expand "Expandir saída" %}}  
     ERROR! Syntax Error while loading YAML.
-
 
     The error appears to have been in '/home/usuario/playbook.yml': line 4, column 10, but may
     be elsewhere in the file depending on the exact syntax problem.
@@ -187,11 +185,9 @@ Solicitando senha para escalar privilégios pelo prompt `--ask-become-pass`
              ^ here  
 {{% /expand %}}
 
-
 ### 5) Saltos
 
-
-**Confirmando a execução das TASKs: `--step`**
+#### Confirmando a execução das TASKs: `--step`
 
     $ sudo ansible-playbook -i /etc/ansible/hosts-test playbook.yml --step
 
@@ -213,9 +209,7 @@ Solicitando senha para escalar privilégios pelo prompt `--ask-become-pass`
     ok: [web1.example.com]  
 {{% /expand %}}
 
-
-
-**Iniciando a Playbook a partir de uma TASK: `--start-at-task`**
+#### Iniciando a Playbook a partir de uma TASK: `--start-at-task`
 
     $ sudo ansible-playbook -i /etc/ansible/hosts-test playbook.yml --start-at-task="garantir que o mysqld (MariaDB) está na última versão"
 
@@ -237,12 +231,11 @@ Solicitando senha para escalar privilégios pelo prompt `--ask-become-pass`
     db.example.com             : ok=3    changed=0    unreachable=0    failed=0
 {{% /expand %}}
 
-
-**Limitando a execução da playbook: `--limit`**
+#### Limitando a execução da playbook: `--limit`
 
     $ sudo ansible-playbook -i /etc/ansible/hosts-test playbook.yml --limit web1.example.com
 
-{{% expand "Expandir saída" %}}   
+{{% expand "Expandir saída" %}}
     PLAY [1 - Criando servidores web] ***************************************************************************
 
     TASK [Gathering Facts] **************************************************************************************
@@ -263,7 +256,8 @@ Solicitando senha para escalar privilégios pelo prompt `--ask-become-pass`
 {{% /expand %}}
 
 ### 6) Depurando (Debug)
-**Execundo a playbook em Debug modo 1: `-v`**
+
+#### Executando a playbook em Debug modo 1: `-v`
 
     $ sudo ansible-playbook -i /etc/ansible/hosts-test playbook.yml -v
 
@@ -281,7 +275,7 @@ Solicitando senha para escalar privilégios pelo prompt `--ask-become-pass`
     ok: [web1.example.com] => {"changed": false, "msg": "Nothing to do"}
 {{% /expand %}}
 
-**Execundo a playbook em Debug modo 2: `-vv`**
+#### Executando a playbook em Debug modo 2: `-vv`
 
     $ sudo ansible-playbook -i /etc/ansible/hosts-test playbook.yml -vv
 
@@ -304,8 +298,7 @@ Solicitando senha para escalar privilégios pelo prompt `--ask-become-pass`
     ok: [web2.example.com] => {"changed": false, "msg": "Nothing to do"}
 {{% /expand %}}
 
-
-**Executando a playbook em Debug modo 3: `-vvv`**
+#### Executando a playbook em Debug modo 3: `-vvv`
 
     $ sudo ansible-playbook -i /etc/ansible/hosts-test playbook.yml -vvv
 
@@ -356,8 +349,7 @@ Solicitando senha para escalar privilégios pelo prompt `--ask-become-pass`
     Using /etc/ansible/ansible.cfg as config file
 {{% /expand %}}
 
-
-**Execundo a playbook em Debug de conexão: `-vvvv`**
+#### Executando a playbook em Debug de conexão: `-vvvv`
 
     $ sudo ansible-playbook -i /etc/ansible/hosts-test playbook.yml -vvvv
 
