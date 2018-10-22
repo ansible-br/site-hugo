@@ -40,7 +40,7 @@ O módulo 'ping' foi informado através do parâmetro `-m` e, no caso de sucesso
 {{% /notice%}}
 
 {{% notice info %}}
-O comando ping não não envia pacotes ICMP para o *Host*. Este módulo realiza um teste de verificação de permissão, da instalação do python **Host** e que este está acessível pelo Ansible Control.
+O comando ping não envia pacotes ICMP para o *Host*. Este módulo realiza um teste de verificação de permissão, da instalação do python **Host** e que este está acessível pelo Ansible Control.
 
 {{% /notice%}}
 
